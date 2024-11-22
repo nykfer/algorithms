@@ -49,7 +49,9 @@ def solving_SLAE(*, A:np.array, b:np.array)->np.array:
     
     
     return X   
-
+#check replace
+check =1000
+check += 102
 # A = np.array([[10,8,12,0,0,0,0],
 #               [8,12,34,0,0,0,0],
 #               [0,34,12,6,0,0,0],
@@ -69,3 +71,4 @@ print(f"Визначник А = {np.linalg.det(A)}")
 b = [-0.161, -0.019, 0.531, 1.552, 3.058]
 result = solving_SLAE(A=A, b=b)
 print(result)
+a =0
